@@ -209,9 +209,9 @@ zinit wait lucid for \
 #   of Turbo mode. The use of as"completion" ice modifier specifies that Zinit
 #   should only load snippets starting with underscore (completion file).
 #
-zinit wait lucid as"completion" for \
-    OMZP::docker/completions/_docker \
-    OMZP::docker-compose/_docker-compose
+# zinit wait lucid as"completion" for \
+#     OMZP::docker/completions/_docker \
+#     OMZP::docker-compose/_docker-compose
 
 # Install additional popular programs.
 #

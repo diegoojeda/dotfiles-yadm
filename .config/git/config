@@ -1,10 +1,7 @@
 [user]
-	name = Patrik Wyde
-	email = patrik@wyde.se
-	signingkey = 12027FC5C7E3663C
+	name = Diego Ojeda
+	email = diego.ojeda@apiumhub.com
 [core]
 	editor = vim
 	autocrlf = input
 	safecrlf = true
-[commit]
-	gpgsign = true

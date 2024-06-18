@@ -4,8 +4,8 @@
 
 # Variables for dotfiles repo.
 git_host="github.com"
-git_user="pwyde"
-git_repo="dotfiles"
+git_user="diegoojeda"
+git_repo="dotfiles-yadm"
 git_url="https://${git_host}/${git_user}/"
 
 # Variables for temporary files/directories.
@@ -46,12 +46,10 @@ pkg_list=("git"
           "zsh"
           "vim"
           "curl"
-          "ranger"
-          "w3m"         # Optional dependency for 'ranger'.
-          "highlight"   # Optional dependency for 'ranger'.
           "thefuck"
           "tree"
-          "unzip")
+          "unzip"
+          "direnv")
 
 # FUNCTIONS ####################################################################
 
