@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function fzf {
+    local bindir="/home/diego/.config/zsh/.zinit/plugins/junegunn---fzf"
+    
+    
+    
+    local -xU PATH="$bindir":"$PATH"
+    
+    "$bindir"/"fzf" "$@"
+
+}
+
+fzf "$@"

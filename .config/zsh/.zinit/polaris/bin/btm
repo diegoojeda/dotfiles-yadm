@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function btm {
+    local bindir="/home/diego/.config/zsh/.zinit/plugins/ClementTsang---bottom"
+    
+    
+    
+    local -xU PATH="$bindir":"$PATH"
+    
+    "$bindir"/"btm" "$@"
+
+}
+
+btm "$@"

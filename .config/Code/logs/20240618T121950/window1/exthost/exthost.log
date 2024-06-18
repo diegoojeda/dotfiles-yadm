@@ -1,0 +1,101 @@
+2024-06-18 12:19:51.610 [info] Extension host with pid 83246 started
+2024-06-18 12:19:51.610 [info] Skipping acquiring lock for /home/diego/.config/Code/User/workspaceStorage/a04950898159cc79643909a5adb79a8e.
+2024-06-18 12:19:51.619 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-18 12:19:51.622 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-18 12:19:51.642 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-18 12:19:51.676 [info] Eager extensions activated
+2024-06-18 12:19:51.688 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 12:19:51.690 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 12:19:51.735 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-18 12:19:51.788 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-06-18 12:23:05.857 [error] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-18 12:23:06.866 [error] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-18 12:23:49.479 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-18 12:23:49.747 [error] Canceled: Canceled
+	at new A (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at n.O [as value] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:945191)
+	at l.y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964275)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/share/code/resources/app/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/share/code/resources/app/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-18 12:23:49.750 [error] Canceled: Canceled
+	at new A (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:50615)
+	at E.U (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:6007)
+	at z.<computed>.M.charCodeAt.R.CharCode.DollarSign.z.<computed> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:3091)
+	at h.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199937)
+	at h.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at I.registerCommand.description (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:198699)
+	at h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:200476)
+	at h.g (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199468)
+	at h.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:199375)
+	at Object.executeCommand (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:22742)
+	at set hasGitHubRepositories (/usr/share/code/resources/app/extensions/github/dist/extension.js:2:322969)
+	at /usr/share/code/resources/app/extensions/github/dist/extension.js:2:323928
+	at n.value (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1050764)
+	at l.y (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.z (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:734)
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:82:950)
+	at Object.p [as dispose] (/usr/share/code/resources/app/extensions/git/dist/main.js:2:964275)
+	at /usr/share/code/resources/app/extensions/git/dist/main.js:2:970313
+	at Array.forEach (<anonymous>)
+	at f.dispose (/usr/share/code/resources/app/extensions/git/dist/main.js:2:970299)
+	at a.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4032)
+	at a.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at a.<anonymous> (/usr/share/code/resources/app/extensions/git/dist/main.js:2:947448)
+	at a.dispose (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:151:4129)
+	at f (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:744)
+	at u.eb (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:9991)
+	at /usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7867
+	at Array.map (<anonymous>)
+	at u.$ (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:7854)
+	at u.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:8127)
+	at f.terminate (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:163:1513)
+	at t (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:10459)
+	at MessagePortMain.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:176:6675)
+	at MessagePortMain.emit (node:events:514:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2285) setContext undefined
+2024-06-18 12:23:49.750 [info] Extension host with pid 83246 exiting with code 0
+2024-06-18 12:23:50.835 [info] Extension host with pid 85097 started
+2024-06-18 12:23:50.835 [info] Skipping acquiring lock for /home/diego/.config/Code/User/workspaceStorage/ad2ff43b3a5d70d910ffadffd3fb790c.
+2024-06-18 12:23:50.851 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-18 12:23:50.859 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-18 12:23:50.879 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-18 12:23:50.912 [info] Eager extensions activated
+2024-06-18 12:23:50.923 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 12:23:50.925 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-18 12:24:01.669 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-18 12:25:42.185 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-18 12:25:42.205 [info] Extension host with pid 85097 exiting with code 0

@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function procs {
+    local bindir="/home/diego/.config/zsh/.zinit/plugins/dalance---procs"
+    
+    
+    
+    local -xU PATH="$bindir":"$PATH"
+    
+    "$bindir"/"procs" "$@"
+
+}
+
+procs "$@"

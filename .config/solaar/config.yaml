@@ -1,0 +1,54 @@
+- 1.1.13
+- _NAME: G733 Gaming Headset
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, onboard_profiles, report_rate, report_rate_extended, pointer_speed, dpi, dpi_extended, speed-change, backlight, backlight_level,
+    backlight_duration_hands_out, backlight_duration_hands_in, backlight_duration_powered, backlight-timed, rgb_control, rgb_zone_, brightness_control,
+    per-key-lighting, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys, disable-keyboard-keys, crown-smooth, divert-crown, m-key-leds,
+    mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params]
+  _battery: 7968
+  _modelId: 0AFE00000000
+  _unitId: FFFFFFFF
+  adc_power_management: 30
+  divert-gkeys: false
+  equalizer: {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0}
+  led_control: 0
+  led_zone_1: !LEDEffectSetting {ID: 1, color: 196608, ramp: 0}
+  led_zone_2: !LEDEffectSetting {ID: 0}
+  sidetone: 0
+- _NAME: G915 WIRELESS RGB MECHANICAL GAMING KEYBOARD
+  _absent: [hi-res-scroll, lowres-scroll-mode, hires-smooth-invert, hires-smooth-resolution, hires-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert,
+    thumb-scroll-mode, report_rate_extended, pointer_speed, dpi, dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out, backlight_duration_hands_in,
+    backlight_duration_powered, backlight-timed, led_control, led_zone_, fn-swap, reprogrammable-keys, persistent-remappable-keys, disable-keyboard-keys,
+    crown-smooth, divert-crown, multiplatform, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer, adc_power_management]
+  _battery: 4097
+  _modelId: B354407CC33E
+  _serial: E361C1E6
+  _unitId: E361C1E6
+  _wpid: 407C
+  brightness_control: 100
+  change-host: null
+  divert-gkeys: false
+  divert-keys: {209: 0, 210: 0}
+  m-key-leds: {1: false, 2: false, 4: false}
+  mr-key-led: false
+  onboard_profiles: 1
+  report_rate: 1
+  rgb_control: 0
+- _NAME: G502 X PLUS
+  _absent: [hi-res-scroll, lowres-scroll-mode, scroll-ratchet, smart-shift, thumb-scroll-invert, thumb-scroll-mode, report_rate_extended, pointer_speed,
+    dpi_extended, speed-change, backlight, backlight_level, backlight_duration_hands_out, backlight_duration_hands_in, backlight_duration_powered, backlight-timed,
+    led_control, led_zone_, brightness_control, fn-swap, reprogrammable-keys, persistent-remappable-keys, divert-keys, disable-keyboard-keys, crown-smooth,
+    divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform, change-host, gesture2-gestures, gesture2-divert, gesture2-params, sidetone, equalizer,
+    adc_power_management]
+  _battery: 4100
+  _modelId: 4099C0950000
+  _serial: D360F193
+  _unitId: D360F193
+  _wpid: '4099'
+  dpi: 2400
+  hires-scroll-mode: false
+  hires-smooth-invert: false
+  hires-smooth-resolution: false
+  onboard_profiles: 2
+  report_rate: 2
+  rgb_control: 0

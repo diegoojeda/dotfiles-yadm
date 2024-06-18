@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function eza {
+    local bindir="/home/diego/.config/zsh/.zinit/plugins/eza-community---eza/target/completions-0.18.18"
+    
+    
+    
+    local -xU PATH="$bindir":"$PATH"
+    
+    "$bindir"/"eza" "$@"
+
+}
+
+eza "$@"

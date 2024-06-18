@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function bat {
+    local bindir="/home/diego/.config/zsh/.zinit/plugins/sharkdp---bat/bat-v0.24.0-x86_64-unknown-linux-gnu"
+    
+    
+    
+    local -xU PATH="$bindir":"$PATH"
+    
+    "$bindir"/"bat" "$@"
+
+}
+
+bat "$@"

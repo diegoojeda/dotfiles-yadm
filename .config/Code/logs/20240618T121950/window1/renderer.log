@@ -1,0 +1,16 @@
+2024-06-18 12:19:51.379 [info] Started local extension host with pid 83246.
+2024-06-18 12:19:54.028 [info] [perf] Render performance baseline is 24ms
+2024-06-18 12:21:36.204 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/diego/dotfiles-yadm)
+2024-06-18 12:23:05.858 [error] [Extension Host] Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-18 12:23:05.872 [error] [Extension Host] Error: Unexpected SIGPIPE
+	at process.<anonymous> (/usr/share/code/resources/app/out/bootstrap.js:1:471)
+	at process.emit (node:events:514:28)
+2024-06-18 12:23:06.868 [error] spawn git ENOENT: Error: spawn git ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-18 12:23:50.529 [info] Started local extension host with pid 85097.
+2024-06-18 12:23:53.664 [info] [perf] Render performance baseline is 25ms

@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function rg {
+    local bindir="/home/diego/.config/zsh/.zinit/plugins/BurntSushi---ripgrep/ripgrep-14.1.0-x86_64-unknown-linux-musl"
+    
+    
+    
+    local -xU PATH="$bindir":"$PATH"
+    
+    "$bindir"/"rg" "$@"
+
+}
+
+rg "$@"

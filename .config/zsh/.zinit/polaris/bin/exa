@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function exa {
+    local bindir="/home/diego/.config/zsh/.zinit/plugins/ogham---exa/bin"
+    
+    
+    
+    local -xU PATH="$bindir":"$PATH"
+    
+    "$bindir"/"exa" "$@"
+
+}
+
+exa "$@"

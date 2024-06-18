@@ -1,0 +1,74 @@
+: 1718705264:0;sudo apt install exa
+: 1718705281:0;cat .zshrc
+: 1718705314:0;direnv
+: 1718705319:0;sudo apt-get install direnv
+: 1718705433:0;zinit
+: 1718705487:0;ga.
+: 1718705488:0;ga .
+: 1718705490:0;gst
+: 1718705493:0;git commit -am "My own config"
+: 1718705520:0;cd .config
+: 1718705525:0;cd yadm
+: 1718705528:0;cd con
+: 1718705589:0;cat .gitconfig
+: 1718705593:0;which .gitconfig
+: 1718705596:0;where .gitconfig
+: 1718705646:0;gpg --version
+: 1718705671:0;git config --global commit.gpgsign false
+: 1718705677:0;cd dotfiles-yadm
+: 1718705683:0;ls --la
+: 1718705684:0;ls -la
+: 1718705689:0;git status
+: 1718705691:0;git add .
+: 1718705698:0;gcam "My own config"
+: 1718705700:0;gp
+: 1718705710:0;yadm pull
+: 1718705936:0;logout
+: 1718706016:0;cd .local/share/yadm
+: 1718706018:0;cd repo.git
+: 1718706028:0;cat config
+: 1718706031:0;cd
+: 1718706056:0;yadm enter zsh
+: 1718706061:0;dir
+: 1718706090:0;open .
+: 1718706117:0;ls
+: 1718706127:0;open .zshrc
+: 1718706272:0;yadm status
+: 1718706278:0;yadm add .
+: 1718706461:0;yadm clone https://github.com/diegoojeda/dotfiles-yadm
+: 1718706463:0;yadm clone https://github.com/diegoojeda/dotfiles-yadm -f
+: 1718706657:0;which zshrc
+: 1718706660:0;where zshrc
+: 1718706789:0;docker ps
+: 1718706909:0;btop
+: 1718706988:0;sudo apt-get install libfuse2 libxi6 libxrender1 libxtst6 mesa-utils libfontconfig libgtk-3-bin
+: 1718706995:0;sudo apt-get upgrade
+: 1718707068:0;cd Descargas
+: 1718707076:0;sudo tar -zxf jetbrains-toolbox-2.3.2.31487.tar.gz -C /op
+: 1718707078:0;sudo tar -zxf jetbrains-toolbox-2.3.2.31487.tar.gz -C /opt
+: 1718707090:0;/opt/jetbrains-toolbox-2.3.2.31487/jetbrains-toolbox
+: 1718707222:0;make
+: 1718707235:0;jmeter
+: 1718707237:0;exit
+: 1718707239:0;make start-services
+: 1718707270:0;yadm pull
+: 1718707285:0;yadm status
+: 1718707293:0;yadm add .
+: 1718707334:0;yadm status
+: 1718707336:0;yadm add .
+: 1718707343:0;yadm status
+: 1718707350:0;yadm commit "A ver que es esto"
+: 1718707357:0;yadm commit -m "A ver que es esto"
+: 1718707360:0;yadm add .
+: 1718707363:0;yadm status
+: 1718707369:0;yadm push
+: 1718707382:0;yadm remote
+: 1718707384:0;yadm remote -v
+: 1718707411:0;yadm remote set-url origin https://github.com/diegoojeda/dotfiles-yadm
+: 1718707413:0;yadm pull
+: 1718707417:0;yadm status
+: 1718707420:0;yadm add .
+: 1718707430:0;yadm status
+: 1718707436:0;yadm add .config/*
+: 1718707440:0;yadm status
+: 1718707449:0;yadm add .config/zsh/*

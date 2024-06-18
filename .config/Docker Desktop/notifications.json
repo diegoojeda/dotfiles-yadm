@@ -1,0 +1,36 @@
+{
+	"notifications": [
+		{
+			"guid": "44b1202a-26f0-4b76-bc6e-721de8f897bc",
+			"timestamp": 1718703675438,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"type": "update",
+				"ephemeral": false,
+				"icon": "download",
+				"message": "Docker Desktop 4.31.0 is available.",
+				"actionText": "Download",
+				"action": {
+					"action": "update-available"
+				}
+			}
+		},
+		{
+			"guid": "9c3d14c3-6196-40aa-9f17-6b0ed5ea4fb4",
+			"timestamp": 1718706798801,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Multi platform image support with containerd is here, try it now!",
+				"icon": "sparkles",
+				"type": "general-purpose",
+				"actionText": "Enable",
+				"action": {
+					"action": "enable-c8d",
+					"params": {}
+				}
+			}
+		}
+	]
+}

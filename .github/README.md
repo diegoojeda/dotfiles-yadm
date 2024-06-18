@@ -42,7 +42,7 @@ $ mkdir -p $HOME/.local/bin; ln -s $HOME/.local/share/yadm/yadm $HOME/.local/bin
 Clone the dotfiles repository using `yadm`.
 
 ```
-$ yadm clone https://github.com/diegoojeda/dotfiles-yadm
+$ yadm clone https://github.com/pwyde/dotfiles.git
 ```
 
 #### Force Overwrite of Local Dotfiles

@@ -1,0 +1,7 @@
+[user]
+	name = Diego Ojeda
+	email = diego.ojeda@apiumhub.com
+[core]
+	editor = vim
+	autocrlf = input
+	safecrlf = true

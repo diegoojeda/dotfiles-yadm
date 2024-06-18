@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function fd {
+    local bindir="/home/diego/.config/zsh/.zinit/plugins/sharkdp---fd/fd-v10.1.0-x86_64-unknown-linux-gnu"
+    
+    
+    
+    local -xU PATH="$bindir":"$PATH"
+    
+    "$bindir"/"fd" "$@"
+
+}
+
+fd "$@"
